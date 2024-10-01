@@ -108,6 +108,18 @@ p {
     margin-top: 2rem;
 }
 
+/* Circle Image */
+#circle-cover-bg {
+    background: url(../images/heart_015-edit.png) no-repeat top center/cover;
+    width: 90vw;
+    height: 90vw;
+    margin-bottom: 20px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
 /** Footer Section **/
 
 footer {
