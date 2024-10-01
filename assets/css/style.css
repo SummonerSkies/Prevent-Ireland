@@ -1,25 +1,50 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+/** Browser Overide **/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 /** General Styles **/
 
 body {
-    background-color: antiquewhite;
-    color: 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #252525;
+    font-family: 'Lato', sans-serif;
 }
 
 h1, h2, h3 {
-
+    font-family: 'Afacad Flux', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
 }
-
 
 /** Header **/
-
-#logo {
-    ;
+header {
+    background-color: #009a44;
 }
+
 /** Nav Bar styling **/
 
 /** Nav Toggle **/
 
 /** Main Body **/
+main {
+    background-color: #ffffff;
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
+}
 
 /** Footer **/
+footer {
+    background-color: #004e22;
+    color:antiquewhite;
+}
