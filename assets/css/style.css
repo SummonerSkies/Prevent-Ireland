@@ -60,7 +60,7 @@ header a {
 }
 
 #logo {
-    font-size: 5vw;
+    font-size: 6vw;
 }
 
 /** Nav Bar styling + drop-down menu **/
@@ -99,9 +99,65 @@ main {
     flex: 1 0 auto;
 }
 
+p {
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
 /** Footer **/
+
 footer {
     background-color: #004e22;
     width: 100%;
-    box-shadow: 2px 0 2px #3a3a3a;
+}
+
+#social-networks {
+    text-align: center;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+/** Media Queries Section **/
+
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /* Main content */
+    main {
+        /* Push main content down to accommodate larger header */
+        margin-top: 79px;
+    }
 }
