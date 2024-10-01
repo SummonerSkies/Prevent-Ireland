@@ -20,7 +20,7 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3, span {
     font-family: 'Afacad Flux', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -116,8 +116,8 @@ p {
     margin-bottom: 20px;
     /* Makes the square image into a circle */
     border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 /** Footer Section **/
@@ -165,7 +165,7 @@ footer {
         display: none;
     }
 
-    #logo {
+    span {
         font-size: 280%;
         line-height: 75px;
         margin: 0 0.5rem;
