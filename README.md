@@ -14,49 +14,40 @@ This site should be useable by anyone seeking general information on the topic.
 ## User Stories
 
 ### Must-Have User Stories
-- **User Story 1:** Briefly describe the must-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
-- **User Story 2:** Briefly describe the must-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
-
-(Include all prioritized must-have features)  
-**Guidance:** Draft the user stories during Phase 1: Ideation & Initial Setup and update them as you complete Phase 2: Must User Stories Implementation & Testing. Document each must-have feature here along with its acceptance criteria.
+As a site owner, I want clear and concise layout so information on Prevent is easily accessible.
+As a user, I want a clear and concise homepage with a simple layout to help me find the information I need.
+As a user I want to be reassured that the site is professional and provides accurate information.
 
 ### Should-Have User Stories
-- **User Story 1:** Briefly describe the should-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
-- **User Story 2:** Briefly describe the should-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
+As a site owner, I want to display basic information on Prevent clearly and easily. 
+As a user I want to be able to find the information quickly and easily, regardless of device used to access the site.
+As a user I want a page that can direct me to find more information about Prevent’s initiatives
+As a site owner, I want a responsive page allowing clear reading of information. 
+As a user, I want to easily reach out to someone for help
 
-(Include all prioritized should-have features)  
-**Guidance:** Document the secondary features that you aim to implement in Phase 3: Should User Stories Implementation & Any Advanced Features. Include clear acceptance criteria for each.
 
 ### Could-Have User Stories
-- **User Story 1:** Briefly describe the could-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
-- **User Story 2:** Briefly describe the could-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
+As a user, I want to know how to voice a complaint about Prevent
+As a site owner, I want to redirect any complex queries to the relevant bodies
 
-(Include any could-have features considered for future enhancements)  
-**Guidance:** Document any optional features that are nice to have but not essential.
 
 ## Design Decisions
+
+When designing the site, I wanted to reference the Irish flag colours to and include something celtic themed for the logo. 
 
 ### Wireframes
 
 
 ![index_html](https://github.com/user-attachments/assets/4de9f220-96d8-466e-bef8-e2dace9543cf)
 
-Starting with a clear front page with a hero image, I wanted to make sure the layout
+Starting with a clear front page with a hero image, I wanted to make sure the layout was clear and easy to follow.
 
 ![about_html](https://github.com/user-attachments/assets/535792c9-69c2-4cb1-884d-dca10cedaa54)
 ![risks_html](https://github.com/user-attachments/assets/6f2b7429-3c93-43c6-82c4-9cc5b0dea8a3)
 ![community_html](https://github.com/user-attachments/assets/c3d7c6e1-7593-457e-8f65-c28ade2de6c5)
 ![contact_html](https://github.com/user-attachments/assets/5c9aea5d-068a-47de-b247-2c0ed3fe0880)
 
-When breaking down the above wireframes, I realised I had gone out of scope - I was making too many pages and making the project too complicated for myself. 
-
-I took a step back, and merged together the page on What is Radicalization and Community Resources together, and designed a page that could include a layout for both.
+When breaking down the above wireframes, I realised I had gone out of scope - I was making too many pages and making the project too complicated for myself. I took a step back, and changed the buttons, and merged together 'What is Radicalization' and 'Community Resources' together, and designed a page that could include a layout for both.
 
 ![whatis_html](https://github.com/user-attachments/assets/a25df8bc-f482-4584-9ac2-add552101377)
 
@@ -111,9 +102,14 @@ Mention any specific challenges encountered during deployment.
 ## Reflection on Development Process
 
 ### Successes
-
+I successfully created a page and a general look that is quite nice, and laid out the goals of the site clearly.
 
 ### Challenges
+I overscoped myself, and could have kept things much more simple. I did not achieve all the goals of providing information.
+
+I did not leave myself enough time to do a WGAC check.
+
+I did not budget my time well, and spent too long on wireframing, and looking for information over creating the page to include what it needed in full. I learned a lot about timekeeping and prioritization from this project.
 
 ### Final Thoughts
 Provide any additional insights gained during the project and thoughts on the overall process.  
