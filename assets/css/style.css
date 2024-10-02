@@ -51,6 +51,7 @@ header a {
     letter-spacing: 4px;
     list-style-type: none;
     color:#fafafa;
+    margin: 0;
 }
 
 #menu > li {
@@ -99,9 +100,7 @@ nav {
 main {background-color: #fafafa;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;  
-    /* Add margin at top to prevent content from being covered by header */
     margin-top: 47px;
-    /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
 }
@@ -115,7 +114,6 @@ p {
 #hero {
     height: 400px;
     width: 100%;
-    margin: 0;
     background: url("../images/pexels-ivan-samkov-9630204.jpg") no-repeat center center/cover;
     position: relative;
 }
@@ -162,18 +160,54 @@ iframe {
     max-width: 560px;
 }
 
+/** About section **/
+#h2-about {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#about-text {
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+
 
 /** WhatIs information signs of radicalization section **/
+
 #rad-intro {
 
 }
 
-#rad-signs {
+/** rad-signs section **/
+details {
+    list-style-type: none;
+}
 
+details > summary {
+        padding: 10px;
+        width: 200px;
+        background-color: #eeeeee;
+        border: none;
+        box-shadow: 1px 1px 2px #bbbbbb;
+        cursor: pointer;
+        margin: 0 20px;
+      }
+      
+details > p {
+    background-color: #eeeeee;
+    padding: 4px;
+    margin: 0 20px;
+    box-shadow: 1px 1px 2px #bbbbbb;
 }
 
 #signs-image {
-
+    background: url(../images/GettyImages-1030307374.jpg) no-repeat top center/cover;
+    height: 300px;
+    width: 400px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    align-items: float;
 }
 
 /** Footer Section **/
