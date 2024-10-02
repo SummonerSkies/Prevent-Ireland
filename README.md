@@ -3,12 +3,13 @@
 ## Overview
 
 ### Purpose
-A brief description of the project's purpose, what it aims to achieve, and the value it provides to the users.  
-**Guidance:** Begin filling out this section during Phase 1: Ideation & Initial Setup. Clearly articulate the main goal of your project, what it aims to achieve, and how it will provide value to your target audience.
+The goal of PREVENT Ireland is to create an informative webpage that introduces the general public to the Prevent strategy and its education goals regarding radicalization. To facilitate this, the site's content should be well-organised and easy to digest, with a focus on simplicity and clarity. When visiting the site, they should know:
+- What is Prevent
+- What is radicalization and how to recognise it, and
+- How to report it to the appropriate authorities and/or community partners
 
 ### Target Audience
-Identify the target audience for your website and explain why this audience will benefit from the project.  
-**Guidance:** Use this section to identify who will benefit from your project and why. This should be informed by your user stories and overall project objectives.
+This site should be useable by anyone seeking general information on the topic. 
 
 ## User Stories
 
@@ -42,19 +43,28 @@ Identify the target audience for your website and explain why this audience will
 ## Design Decisions
 
 ### Wireframes
-Include wireframes for key sections of your website.  
-Briefly describe the design choices, including layout, colour schemes, and fonts.  
-**Guidance:** Start this section during Phase 1: Ideation & Initial Setup and update it throughout Phase 2 and Phase 3. Include digital wireframes created in Phase 1. Document the reasoning behind your layout choices, colour schemes, and font selections.
+
+
+![index_html](https://github.com/user-attachments/assets/4de9f220-96d8-466e-bef8-e2dace9543cf)
+
+Starting with a clear front page with a hero image, I wanted to make sure the layout
+
+![about_html](https://github.com/user-attachments/assets/535792c9-69c2-4cb1-884d-dca10cedaa54)
+![risks_html](https://github.com/user-attachments/assets/6f2b7429-3c93-43c6-82c4-9cc5b0dea8a3)
+![community_html](https://github.com/user-attachments/assets/c3d7c6e1-7593-457e-8f65-c28ade2de6c5)
+![contact_html](https://github.com/user-attachments/assets/5c9aea5d-068a-47de-b247-2c0ed3fe0880)
+
+When breaking down the above wireframes, I realised I had gone out of scope - I was making too many pages and making the project too complicated for myself. 
+
+I took a step back, and merged together the page on What is Radicalization and Community Resources together, and designed a page that could include a layout for both.
+
+![whatis_html](https://github.com/user-attachments/assets/a25df8bc-f482-4584-9ac2-add552101377)
 
 ### Accessibility Considerations
 Discuss how accessibility guidelines were adhered to, including colour contrast and alt text for images.  
 **Guidance:** Outline how you've incorporated accessibility into your design, ensuring that your project adheres to guidelines such as WCAG.
 
-## AI Tools Usage
 
-### DALL-E
-Describe how DALL-E was used for image generation, including examples of successes and challenges.  
-**Guidance:** Specifically mention how you used DALL-E for image generation and the impact this had on your design process.
 
 ## Features Implementation
 
@@ -79,12 +89,6 @@ Describe how DALL-E was used for image generation, including examples of success
 (Include any could-have features that were implemented or considered)  
 **Guidance:** If any could-have features were implemented, describe them here. This is an opportunity to showcase extra work done beyond the initial scope. But remember - keep it simple! Focus on the Must stories first. Could user story features are commonly earmarked for future project iterations.
 
-## AI Tools Usage
-
-### GitHub Copilot
-Describe how GitHub Copilot assisted in coding, including any challenges or adjustments needed.  
-**Guidance:** Reflect on how GitHub Copilot assisted in coding, particularly any challenges or adjustments that were needed to align with project goals.
-
 ## Testing and Validation
 
 ### Testing Results
@@ -97,12 +101,6 @@ Discuss the validation process for HTML and CSS using W3C and Jigsaw validators.
 Include the results of the validation process.  
 **Guidance:** Document your use of W3C and Jigsaw validators to ensure your HTML and CSS meet web standards. Include any errors or warnings encountered and how they were resolved.
 
-## AI Tools Usage
-
-### GitHub Copilot
-Brief reflection on the effectiveness of using AI tools for debugging and validation.  
-**Guidance:** Reflect on how GitHub Copilot assisted with debugging and validation, particularly any issues it helped resolve.
-
 ## Deployment
 
 ### Deployment Process
@@ -110,27 +108,23 @@ Briefly describe the deployment process to GitHub Pages or another cloud platfor
 Mention any specific challenges encountered during deployment.  
 **Guidance:** Describe the steps you took to deploy your website during Phase 4: Final Testing, Debugging & Deployment, including any challenges encountered.
 
-## AI Tools Usage
-
-### Reflection
-Describe the role AI tools played in the deployment process, including any benefits or challenges.  
-**Guidance:** Reflect on how AI tools assisted with the deployment process, particularly how they streamlined any tasks or presented challenges.
-
 ## Reflection on Development Process
 
 ### Successes
-Effective use of AI tools, including GitHub Copilot and DALL-E, and how they contributed to the development process.
+
 
 ### Challenges
-Describe any challenges faced when integrating AI-generated content and how they were addressed.
 
 ### Final Thoughts
 Provide any additional insights gained during the project and thoughts on the overall process.  
 **Guidance:** Begin drafting reflections during Phase 1 and update throughout the project. Finalize this section after Phase 4. Highlight successes and challenges, particularly regarding the use of AI tools, and provide overall insights into the project.
 
-## Code Attribution
-Properly attribute any external code sources used in the project (excluding GitHub Copilot-generated code).  
-**Guidance:** Document any external code sources used throughout the entire project, especially during Phase 2 and Phase 3. Exclude GitHub Copilot-generated code from attribution.
+## Code And Credit Attribution
+- Coding partner: Brian Murphy
+- PREVENT study partner: William Waldron-Hayden
+- Logo: <a href="https://www.vecteezy.com/vector-art/552197-celtic-knot-heart-vector-illustration">Celtic Knot Heart vector</a> by Brian Goff<br>
+(<a href="https://www.vecteezy.com/free-vector/tied">Tied Vectors by Vecteezy</a>)
+
 
 ## Future Improvements
 Briefly discuss potential future improvements or features that could be added to the project.  
