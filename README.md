@@ -30,12 +30,33 @@ These were the target goals for the website, starting with the minimal viable pr
 - As a user, I want to easily reach out to someone for help.
 
 ### Could-Have Design Elements
-- As a user, I want to know how to voice a complaint about Prevent.
 - As a site owner, I want to redirect any complex queries to the relevant bodies.
+- As a user, I want to know how to voice a complaint about Prevent.
 
 ## Features Implementation
 
+### Existing Features
+	
+#### *Responsive Design*
+Each page on website has been designed to be responsive to adjustments in browser size, and will adapt to the device being used.
 
+#### *Custom Pages*
+- Index Page
+- About Page: "What is PREVENT?"
+- Information Page: "What is Radicalization?"
+- Contact Page: "Reach Out"
+
+#### *Branding (Logo) and Favicon*
+The chosen font for the logo and celtic knot heart emblem are distinctive and unique to the site, making it memorable.
+
+#### *Navigation Bar*
+The navigation bar will allow the user to easily navigate links that are clearly labeled to each section of the website. The fully responsive design is found on all pages, without having to go back to a previous page via the ‘back’ button on the browser.
+
+#### *Embedded Video*
+Two videos covering appropriate topics have been successfully included in the body of the "What is PREVENT?" and "What is Radicalization?" pages, and their size is responsive to the size of the device used to view the page.
+
+#### *Footer*
+This clearly shows the linked social media for the PREVENT Ireland website.
 
 ## Design Decisions
 
@@ -112,8 +133,9 @@ The deployment page can be found here: https://summonerskies.github.io/Prevent-I
 ## Reflection on Development Process
 
 ### Successes
-- I successfully created a page with a clean, simple appearance, and laid out the initial goals of the site clear.
-- I successfully created a responsive page.
+- I successfully created a website with a clean, simple appearance, and laid out the initial goals of the site clear.
+- I successfully created responsive pages that changed appropriately when viewed on different devices.
+- I created clear wireframe designs that could be used for current and future reference.
 
 ### Challenges
 - I overscoped myself, and could have kept things much more simple. 
@@ -148,13 +170,24 @@ Finally I should reach out and ask for help more often from both my coding cohor
 - ACT Early - <a href="https://actearly.uk/spot-the-signs-of-radicalisation/what-to-look-for/" alt="Link to ACT Early's Radicalization page that opens in a new window" target="_blank">Radicalization</a>
 
 ### Images
-- Logo: <a href="https://www.vecteezy.com/vector-art/552197-celtic-knot-heart-vector-illustration" target="_blank" lt="Link to Brian Goff's vector page on Vecteezy that opens in a new window">Celtic Knot Heart vector</a> by Brian Goff<br> (<a href="https://www.vecteezy.com/free-vector/tied" alt="Link to Vecteezy.com that opens in a new window" target="_blank">Tied Vectors by Vecteezy</a>)
+- Logo and Favicon: <a href="https://www.vecteezy.com/vector-art/552197-celtic-knot-heart-vector-illustration" target="_blank" lt="Link to Brian Goff's vector page on Vecteezy that opens in a new window">Celtic Knot Heart vector</a> by Brian Goff<br> (<a href="https://www.vecteezy.com/free-vector/tied" alt="Link to Vecteezy.com that opens in a new window" target="_blank">Tied Vectors by Vecteezy</a>)
+- Favicon Converter: <a href="https://favicon.io/" target="_blank" alt="Link to the Favicon website that opens in a new window">Favicon.io</a>
 - <a href="https://www.pexels.com" target="_blank" alt="Link to the Pexels website that opens in a new window">Pexels</a> - Hero and insert images
 - <a href="https://www.fontawesome.com" target="_blank" alt="Link to the FontAwesome website that opens in a new window">Font Awesome</a> - media icons
 
 ## Future Improvements
 
-TBD.
+### Call to Action
+- A bold button encouraging the user to Contact Us should be included on the main landing page linked to the contact.html "Reach Out" page, and just above/included as part of the footer on all pages except the Contact Us page. 
+- Potentially using Bootstrap to enable deployment of the above as appropriate.
+
+### More Information
+- Expand the About.html and WhatIs.html pages to provide greater detail on PREVENT's policies and signs of radicalization respectively, with a responsive layout to ensure ease of reading across multiple devices.
+
+### Expanded Contact Page
+- Include options to send feedback and complaints regarding PREVENT Ireland / Prevent strategy.
+- Expand the contact page to list options for a user in distress vs contact by concerned family member/friend.
+- Contact form option for callback from appropriate team / department / partner service.
 
 
 [def]: /assets/images/amiresponsive1.png
