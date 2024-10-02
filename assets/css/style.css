@@ -109,6 +109,30 @@ p {
     margin-top: 2rem;
 }
 
+/* hero section */
+#hero {
+    height: 400px;
+    width: 100%;
+    background: url("../images/pexels-ivan-samkov-9630204.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text {
+    /* Final rgba value sets the opacity so it is semi-transparant */
+    background-color: rgb(255,130,0,.7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 10px;
+    width: 75%;
+    min-height: 100px;
+    max-height: 250px;
+    padding: 15px 10px;
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color: #ffffff;
+}
+
 /* Circle Image */
 #circle-cover-bg {
     background: url(../images/heart_015-edit.png) no-repeat top center/cover;
@@ -117,8 +141,14 @@ p {
     margin-bottom: 20px;
     /* Makes the square image into a circle */
     border-radius: 50%;
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+iframe {
+    aspect-ratio: 16 / 9;
+    height: auto;
+    width: 100%;
 }
 
 /** Footer Section **/
@@ -140,7 +170,6 @@ footer {
     padding: 5%;
     color: #fafafa;
 }
-
 
 /** Media Queries Section **/
 
@@ -171,6 +200,12 @@ footer {
         line-height: 75px;
         margin: 0 0.5rem;
     }
+
+        /* Hero */
+        #cover-text {
+            width: 300px;
+            right: 50px;
+        }
 
     /* Main content */
     main {
