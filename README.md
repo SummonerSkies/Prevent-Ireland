@@ -117,8 +117,8 @@ I planned for, but did not have time to update the HTML with appropriate accessi
 I tested my website in Firefox, Chrome and Edge on PC, and Safari on IOS 17.6.1 on iPhone 13. The site successfully loaded on all platforms.
 
 During this testing, I encountered the following:
-- Identify colour and position padding issues with the menu, which I then corrected. 
-- See that the embedded YouTube iframes were not responsive on the About and WhatIs pages. After adding appropriate CSS, this issue was corrected.   
+- Identified colour and position padding issues with the menu, which I then corrected. 
+- Saw that the embedded YouTube iframes were not responsive on the About and WhatIs pages. After adding appropriate CSS, this issue was corrected.   
 
 ### Validation
 
@@ -145,8 +145,22 @@ The deployment page can be found here: https://summonerskies.github.io/Prevent-I
 - The site logo/title header could have been more responsive when the page size adjusted between medium sized screens.
 - Did not include a Call to Action button for contacting Prevent Ireland as originally planned in the wireframes.
 
-### Final Thoughts
-For my first ever website, I am quite pleased with my progress after the first four weeks of coding bootcamp. 
+## Planned Future Improvements
+
+### Call to Action
+- A bold button encouraging the user to Contact Us should be included on the main landing page linked to the contact.html "Reach Out" page, and just above/included as part of the footer on all pages except the Contact Us page. 
+- Potentially using Bootstrap to enable deployment of the above as appropriate.
+
+### More Information
+- Expand the About.html and WhatIs.html pages to provide greater detail on PREVENT's policies and signs of radicalization respectively, with a responsive layout to ensure ease of reading across multiple devices.
+
+### Expanded Contact Page
+- Include options to send feedback and complaints regarding PREVENT Ireland / Prevent strategy.
+- Expand the contact page to list options for a user in distress vs contact by concerned family member/friend.
+- Contact form option for callback from appropriate team / department / partner service.
+
+## Final Thoughts
+For my first website project, I am quite pleased with my progress after just four weeks of coding bootcamp. 
 
 I learned a lot about timekeeping and prioritization from this project. It can be very easy to get caught up in the minor details, and it is important not to forget/ignore the important goals (MVP) required for the site you are building.
 
@@ -170,24 +184,13 @@ Finally I should reach out and ask for help more often from both my coding cohor
 - ACT Early - <a href="https://actearly.uk/spot-the-signs-of-radicalisation/what-to-look-for/" alt="Link to ACT Early's Radicalization page that opens in a new window" target="_blank">Radicalization</a>
 
 ### Images
-- Logo and Favicon: <a href="https://www.vecteezy.com/vector-art/552197-celtic-knot-heart-vector-illustration" target="_blank" lt="Link to Brian Goff's vector page on Vecteezy that opens in a new window">Celtic Knot Heart vector</a> by Brian Goff<br> (<a href="https://www.vecteezy.com/free-vector/tied" alt="Link to Vecteezy.com that opens in a new window" target="_blank">Tied Vectors by Vecteezy</a>)
+- Logo and Favicon: <a href="https://www.vecteezy.com/vector-art/552197-celtic-knot-heart-vector-illustration" target="_blank" lt="Link to Brian Goff's vector page on Vecteezy that opens in a new window">Celtic Knot Heart vector</a> by Brian Goff (<a href="https://www.vecteezy.com/free-vector/tied" alt="Link to Vecteezy.com that opens in a new window" target="_blank">Tied Vectors by Vecteezy</a>)
 - Favicon Converter: <a href="https://favicon.io/" target="_blank" alt="Link to the Favicon website that opens in a new window">Favicon.io</a>
 - <a href="https://www.pexels.com" target="_blank" alt="Link to the Pexels website that opens in a new window">Pexels</a> - Hero and insert images
 - <a href="https://www.fontawesome.com" target="_blank" alt="Link to the FontAwesome website that opens in a new window">Font Awesome</a> - media icons
 
-## Future Improvements
 
-### Call to Action
-- A bold button encouraging the user to Contact Us should be included on the main landing page linked to the contact.html "Reach Out" page, and just above/included as part of the footer on all pages except the Contact Us page. 
-- Potentially using Bootstrap to enable deployment of the above as appropriate.
-
-### More Information
-- Expand the About.html and WhatIs.html pages to provide greater detail on PREVENT's policies and signs of radicalization respectively, with a responsive layout to ensure ease of reading across multiple devices.
-
-### Expanded Contact Page
-- Include options to send feedback and complaints regarding PREVENT Ireland / Prevent strategy.
-- Expand the contact page to list options for a user in distress vs contact by concerned family member/friend.
-- Contact form option for callback from appropriate team / department / partner service.
-
+## LAST UPDATED 
+- 2nd October 2024
 
 [def]: /assets/images/amiresponsive1.png
