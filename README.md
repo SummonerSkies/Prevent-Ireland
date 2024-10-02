@@ -11,29 +11,50 @@ The goal of PREVENT Ireland is to create an informative webpage that introduces 
 ### Target Audience
 This site should be useable by anyone seeking general information on the topic. 
 
-## User Stories
+![Screenshot of AmIResponsive.com showing an image of the current website across multiple device sizes](/assets/images/amiresponsive1.png)
 
-### Must-Have User Stories
-As a site owner, I want clear and concise layout so information on Prevent is easily accessible.
-As a user, I want a clear and concise homepage with a simple layout to help me find the information I need.
-As a user I want to be reassured that the site is professional and provides accurate information.
+## Design Goals
 
-### Should-Have User Stories
-As a site owner, I want to display basic information on Prevent clearly and easily. 
-As a user I want to be able to find the information quickly and easily, regardless of device used to access the site.
-As a user I want a page that can direct me to find more information about Prevent’s initiatives
-As a site owner, I want a responsive page allowing clear reading of information. 
-As a user, I want to easily reach out to someone for help
+These were the target goals for the website, starting with the minimal viable product (MVP) and expanding from there.
 
+### Must-Have Design Elements
+- As a site owner, I want clear and concise layout so information on Prevent is easily accessible.
+- As a user, I want a clear and concise homepage with a simple layout to help me find the information I need.
+- As a user I want to be reassured that the site is professional and provides accurate information.
 
-### Could-Have User Stories
-As a user, I want to know how to voice a complaint about Prevent
-As a site owner, I want to redirect any complex queries to the relevant bodies
+### Should-Have Design Elements
+- As a site owner, I want to display basic information on Prevent clearly and easily. 
+- As a site owner, I want a responsive page allowing clear reading of information. 
+- As a user I want to be able to find the information quickly and easily, regardless of device used to access the site.
+- As a user I want a page that can direct me to find more information about Prevent’s initiatives.
+- As a user, I want to easily reach out to someone for help.
+
+### Could-Have Design Elements
+- As a user, I want to know how to voice a complaint about Prevent.
+- As a site owner, I want to redirect any complex queries to the relevant bodies.
 
 
 ## Design Decisions
 
-When designing the site, I wanted to reference the Irish flag colours to and include something celtic themed for the logo. 
+When designing the site, I wanted: 
+
+• To reference the Irish flag colours.  
+• To include an appropriate celtic themed logo.
+
+### Colour Palette
+
+I started with the official colour shades of the Irish Flag, with the intent of styling the primary layout and universal look of the site. Using [Coolors.co](https://coolors.co/) I then generated additional colours, and settled for a blue shade and a charcoal shade.
+
+![Image of five colours with their hexcode taken from coolors.co](/assets/images/colour-palette-version1.png)
+
+The final version of the site, I opted not to use the blue and charcoal colours, as these did not compliment the design as I had hoped. Instead, I opted to use a darker shade of green (#004e22) for the footer to offset the flag-green shade of the header, and a offwhite/cream colour (#fafafa) for the navigation menu and footer icons.
+
+![Image of the two replacement colours with their hexcode taken from coolors.co](/assets/images/colour-palette-version1.png)
+
+
+### Logo
+
+
 
 ### Wireframes
 
@@ -125,3 +146,6 @@ Provide any additional insights gained during the project and thoughts on the ov
 ## Future Improvements
 Briefly discuss potential future improvements or features that could be added to the project.  
 **Guidance:** Reflect on potential enhancements that could be made to the project after Phase 4: Final Testing, Debugging & Deployment. These could be Could user story features you didn’t have time to implement or improvements based on testing feedback.
+
+
+[def]: /assets/images/amiresponsive1.png
