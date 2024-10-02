@@ -235,6 +235,9 @@ span {
     align-items: float;
 }
 
+#links {
+    text-align: center;
+}
 /** Footer Section **/
 
 footer {
