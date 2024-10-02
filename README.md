@@ -5,7 +5,7 @@
 ![Screenshot of AmIResponsive.com showing an image of the current website across multiple device sizes](/assets/images/amiresponsive1.png)
 
 ### Purpose
-The goal of PREVENT Ireland is to create an informative webpage that introduces the general public to the Prevent strategy and its education goals regarding radicalization. To facilitate this, the site's content should be well-organised and easy to digest, with a focus on simplicity and clarity. When visiting the site, they should know:
+The goal of PREVENT Ireland is to create an informative webpage that introduces the general public to the Prevent strategy and its education goals regarding radicalization. To facilitate this, the site's content should be well-organised and easy to digest, with a focus on simplicity and clarity. When visiting, the website should answer the following user questions:
 - What is Prevent
 - What is radicalization and how to recognise it, and
 - How to report it to the appropriate authorities and/or community partners
