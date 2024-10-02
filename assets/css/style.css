@@ -30,6 +30,7 @@ h1, h2, h3 {
 /** Header **/
 header {
     background-color: #009a44;
+    margin: 0;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -70,6 +71,7 @@ nav {
     background-color: #009a44;
     width: 100%;
     left: 0;
+    margin: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
@@ -113,6 +115,7 @@ p {
 #hero {
     height: 400px;
     width: 100%;
+    margin: 0;
     background: url("../images/pexels-ivan-samkov-9630204.jpg") no-repeat center center/cover;
     position: relative;
 }
@@ -170,7 +173,7 @@ iframe {
 }
 
 #signs-image {
-    
+
 }
 
 /** Footer Section **/
