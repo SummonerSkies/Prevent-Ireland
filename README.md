@@ -1,6 +1,8 @@
-# PROTECT Ireland
+# PREVENT Ireland
 
 ## Overview
+
+![Screenshot of AmIResponsive.com showing an image of the current website across multiple device sizes](/assets/images/amiresponsive1.png)
 
 ### Purpose
 The goal of PREVENT Ireland is to create an informative webpage that introduces the general public to the Prevent strategy and its education goals regarding radicalization. To facilitate this, the site's content should be well-organised and easy to digest, with a focus on simplicity and clarity. When visiting the site, they should know:
@@ -10,8 +12,6 @@ The goal of PREVENT Ireland is to create an informative webpage that introduces 
 
 ### Target Audience
 This site should be useable by anyone seeking general information on the topic. 
-
-![Screenshot of AmIResponsive.com showing an image of the current website across multiple device sizes](/assets/images/amiresponsive1.png)
 
 ## Design Goals
 
@@ -32,6 +32,9 @@ These were the target goals for the website, starting with the minimal viable pr
 ### Could-Have Design Elements
 - As a user, I want to know how to voice a complaint about Prevent.
 - As a site owner, I want to redirect any complex queries to the relevant bodies.
+
+## Features Implementation
+
 
 
 ## Design Decisions
@@ -65,54 +68,36 @@ After a brief search, I found a free vector design I liked by Brian Goff on [Vec
 
 ### Wireframes
 
+Starting with a clear front page with a hero image, I wanted to make sure the layout was clear and easy to follow.
 
 ![index_html](https://github.com/user-attachments/assets/4de9f220-96d8-466e-bef8-e2dace9543cf)
 
-Starting with a clear front page with a hero image, I wanted to make sure the layout was clear and easy to follow.
+I then made additional wireframes for other potential pages, with the selected page responsively highlighted on each nav bar.
 
 ![about_html](https://github.com/user-attachments/assets/535792c9-69c2-4cb1-884d-dca10cedaa54)
 ![risks_html](https://github.com/user-attachments/assets/6f2b7429-3c93-43c6-82c4-9cc5b0dea8a3)
 ![community_html](https://github.com/user-attachments/assets/c3d7c6e1-7593-457e-8f65-c28ade2de6c5)
 ![contact_html](https://github.com/user-attachments/assets/5c9aea5d-068a-47de-b247-2c0ed3fe0880)
 
-When breaking down the above wireframes, I realised I had gone out of scope - I was making too many pages and making the project too complicated for myself. I took a step back, and changed the buttons, and merged together 'What is Radicalization' and 'Community Resources' together, and designed a page that could include a layout for both.
+When breaking down the above wireframes, I realised I had gone out of scope - I was making too many pages and making the project too complicated for myself. 
+
+I took a step back, and changed the buttons, and made a new design that merged together the 'What is Radicalization' and 'Community Resources' pages, and designed a new one that could include a layout for both.
 
 ![whatis_html](https://github.com/user-attachments/assets/a25df8bc-f482-4584-9ac2-add552101377)
 
+This final design was not used, but is worth considering for a future iteration of the website.
+
 ### Accessibility Considerations
-Discuss how accessibility guidelines were adhered to, including colour contrast and alt text for images.  
-**Guidance:** Outline how you've incorporated accessibility into your design, ensuring that your project adheres to guidelines such as WCAG.
-
-
-
-## Features Implementation
-
-### Core Features (Must-Haves)
-- **Feature 1:** Description of the implemented feature.
-- **Feature 2:** Description of the implemented feature.
-
-(Include all must-have features)  
-**Guidance:** Use this section as you complete Phase 2: Must User Stories Implementation & Testing. Document all the must-have features you implemented, explaining how they align with the user stories and acceptance criteria.
-
-### Advanced Features (Should-Haves)
-
-(Include all should-have features)  
-**Guidance:** Include any advanced features you implemented during Phase 3: Should User Stories Implementation & Any Advanced Features. Explain how these features enhance user experience and their alignment with the acceptance criteria.
-
-### Optional Features (Could-Haves)
-
-
-(Include any could-have features that were implemented or considered)  
+I planned for, but did not have time to update the HTML with appropriate accessibilty alt tags for the images and iframes. 
 
 ## Testing and Validation
 
 ### Testing Results
+I tested my website in Firefox, Chrome and Edge on PC, and Safari on IOS 17.6.1 on iPhone 13. The site successfully loaded on all platforms.
 
-I tested my website in Firefox, Chrome and Edge on PC, and Safari on IOS 17.6.1 on iPhone 13.
-
-During this testing, I was able to:
+During this testing, I encountered the following:
 - Identify colour and position padding issues with the menu, which I then corrected. 
-- see that the embedded YouTube iframes were not responsive on the About and WhatIs pages. After adding appropriate CSS, this issue was corrected.   
+- See that the embedded YouTube iframes were not responsive on the About and WhatIs pages. After adding appropriate CSS, this issue was corrected.   
 
 ### Validation
 
@@ -127,37 +112,49 @@ The deployment page can be found here: https://summonerskies.github.io/Prevent-I
 ## Reflection on Development Process
 
 ### Successes
-I successfully created a page and a general look that is quite nice, and laid out the goals of the site clearly.
+- I successfully created a page with a clean, simple appearance, and laid out the initial goals of the site clear.
+- I successfully created a responsive page.
 
 ### Challenges
 - I overscoped myself, and could have kept things much more simple. 
 - I did not achieve all the goals of providing information.
 - I did not leave myself enough time to do aappropriate WGAC check.
-- I did not budget my time well, and spent too long on wireframing and looking for information. 
-
-I learned a lot about timekeeping and prioritization from this project.
+- I did not budget my time well, and spent too long on wireframing and looking for information.
+- The site logo/title header could have been more responsive when the page size adjusted between medium sized screens.
+- Did not include a Call to Action button for contacting Prevent Ireland as originally planned in the wireframes.
 
 ### Final Thoughts
-Provide any additional insights gained during the project and thoughts on the overall process.  
-**Guidance:** Begin drafting reflections during Phase 1 and update throughout the project. Finalize this section after Phase 4. Highlight successes and challenges, particularly regarding the use of AI tools, and provide overall insights into the project.
+For my first ever website, I am quite pleased with my progress after the first four weeks of coding bootcamp. 
+
+I learned a lot about timekeeping and prioritization from this project. It can be very easy to get caught up in the minor details, and it is important not to forget/ignore the important goals (MVP) required for the site you are building.
+
+My lack of experience with flexboxes shows on several pages, and I had issues aligning some elements. 
+
+Including Bootstrap in future may help with addressing some design decisions.
+
+Finally I should reach out and ask for help more often from both my coding cohort, coding partner, and my instructors as and when I need it. 
 
 ## Credits and Attribution
 
-### Collaborators 
-- Coding partner: Brian Murphy
-- PREVENT study partner: William Waldron-Hayden
-
 ### Code
+-   
+
+### Collaborators 
+- Coding partner: Brian Murphy.
+- PREVENT study partner: William Waldron-Hayden.
+- Instructors: David Calikes, John Rearden, and Kevin Loughrey at <a href="https://www.codeinstitute.net" target="_blank" alt="Link to Code Insititute's website that opens in a new window">Code Institute</a>.
+
+### Content
+- ACT Early - <a href="https://actearly.uk/spot-the-signs-of-radicalisation/what-to-look-for/" alt="Link to ACT Early's Radicalization page that opens in a new window" target="_blank">Radicalization</a>
 
 ### Images
-- Logo: <a href="https://www.vecteezy.com/vector-art/552197-celtic-knot-heart-vector-illustration" target="_blank">Celtic Knot Heart vector</a> by Brian Goff<br>
-(<a href="https://www.vecteezy.com/free-vector/tied" target="_blank">Tied Vectors by Vecteezy</a>)
-- (<a href="https://www.pexels.com" target="_blank">Pexels</a>) - Hero and insert images
-- (<a href="https://www.fontawesome.com" target="_blank">Font Awesome</a>) - media icons
+- Logo: <a href="https://www.vecteezy.com/vector-art/552197-celtic-knot-heart-vector-illustration" target="_blank" lt="Link to Brian Goff's vector page on Vecteezy that opens in a new window">Celtic Knot Heart vector</a> by Brian Goff<br> (<a href="https://www.vecteezy.com/free-vector/tied" alt="Link to Vecteezy.com that opens in a new window" target="_blank">Tied Vectors by Vecteezy</a>)
+- <a href="https://www.pexels.com" target="_blank" alt="Link to the Pexels website that opens in a new window">Pexels</a> - Hero and insert images
+- <a href="https://www.fontawesome.com" target="_blank" alt="Link to the FontAwesome website that opens in a new window">Font Awesome</a> - media icons
 
 ## Future Improvements
-Briefly discuss potential future improvements or features that could be added to the project.  
-**Guidance:** Reflect on potential enhancements that could be made to the project after Phase 4: Final Testing, Debugging & Deployment. These could be Could user story features you didn’t have time to implement or improvements based on testing feedback.
+
+TBD.
 
 
 [def]: /assets/images/amiresponsive1.png
