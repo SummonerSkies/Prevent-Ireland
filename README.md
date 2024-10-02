@@ -36,10 +36,12 @@ These were the target goals for the website, starting with the minimal viable pr
 
 ## Design Decisions
 
-When designing the site, I wanted: 
+When designing the site, I wanted to start with the follow: 
 
-• To reference the Irish flag colours.  
-• To include an appropriate celtic themed logo.
+- Keep the design simple and clean.
+- Make the site's content easy to digest.
+- Reference the Irish flag colours.  
+- Include an appropriate celtic themed logo.
 
 ### Colour Palette
 
@@ -56,7 +58,7 @@ The final version of the site, I opted not to use the blue and charcoal colours,
 
 The Celtic knot is uniquely Irish, and I wanted to find a design that would incorporate this imagery in the shape of a heart. The heart represents community, and the knotwork represents how everyone is connected together.
 
-After a brief search, I found a free vector design I liked by Brian Goff on [Vecteezy](https://www.vecteezy.com/).
+After a brief search, I found a free vector design I liked by Brian Goff on [Vecteezy](https://www.vecteezy.com/). This was used for both the logo and favicon.
 
 <img src="https://raw.githubusercontent.com/SummonerSkies/Prevent-Ireland/refs/heads/main/assets/images/heart_015.jpg" width=30% height=30% alt="Image of a green celtic knot shaped into a heart.">
 
@@ -93,37 +95,34 @@ Discuss how accessibility guidelines were adhered to, including colour contrast 
 **Guidance:** Use this section as you complete Phase 2: Must User Stories Implementation & Testing. Document all the must-have features you implemented, explaining how they align with the user stories and acceptance criteria.
 
 ### Advanced Features (Should-Haves)
-- **Feature 1:** Description of the implemented feature.
-- **Feature 2:** Description of the implemented feature.
 
 (Include all should-have features)  
 **Guidance:** Include any advanced features you implemented during Phase 3: Should User Stories Implementation & Any Advanced Features. Explain how these features enhance user experience and their alignment with the acceptance criteria.
 
 ### Optional Features (Could-Haves)
-- **Feature 1:** Description of the implemented feature (if any).
-- **Feature 2:** Description of the implemented feature (if any).
+
 
 (Include any could-have features that were implemented or considered)  
-**Guidance:** If any could-have features were implemented, describe them here. This is an opportunity to showcase extra work done beyond the initial scope. But remember - keep it simple! Focus on the Must stories first. Could user story features are commonly earmarked for future project iterations.
 
 ## Testing and Validation
 
 ### Testing Results
-Summarize the results of testing across different devices and screen sizes.  
-Mention any issues found and how they were resolved.  
-**Guidance:** Summarize the results of your testing across various devices using tools like Chrome DevTools, as outlined in Phase 2. Mention any issues found and how they were resolved.
+
+I tested my website in Firefox, Chrome and Edge on PC, and Safari on IOS 17.6.1 on iPhone 13.
+
+During this testing, I was able to:
+- Identify colour and position padding issues with the menu, which I then corrected. 
+- see that the embedded YouTube iframes were not responsive on the About and WhatIs pages. After adding appropriate CSS, this issue was corrected.   
 
 ### Validation
-Discuss the validation process for HTML and CSS using W3C and Jigsaw validators.  
-Include the results of the validation process.  
-**Guidance:** Document your use of W3C and Jigsaw validators to ensure your HTML and CSS meet web standards. Include any errors or warnings encountered and how they were resolved.
+
+Due to time constraints with the project, I failed to allocate enough time to test the site using WC3's HTML and CSS checkers.
 
 ## Deployment
 
-### Deployment Process
-Briefly describe the deployment process to GitHub Pages or another cloud platform.  
-Mention any specific challenges encountered during deployment.  
-**Guidance:** Describe the steps you took to deploy your website during Phase 4: Final Testing, Debugging & Deployment, including any challenges encountered.
+The site was deployed to GitHub pages. 
+
+The deployment page can be found here: https://summonerskies.github.io/Prevent-Ireland/
 
 ## Reflection on Development Process
 
@@ -131,22 +130,30 @@ Mention any specific challenges encountered during deployment.
 I successfully created a page and a general look that is quite nice, and laid out the goals of the site clearly.
 
 ### Challenges
-I overscoped myself, and could have kept things much more simple. I did not achieve all the goals of providing information.
+- I overscoped myself, and could have kept things much more simple. 
+- I did not achieve all the goals of providing information.
+- I did not leave myself enough time to do aappropriate WGAC check.
+- I did not budget my time well, and spent too long on wireframing and looking for information. 
 
-I did not leave myself enough time to do a WGAC check.
-
-I did not budget my time well, and spent too long on wireframing, and looking for information over creating the page to include what it needed in full. I learned a lot about timekeeping and prioritization from this project.
+I learned a lot about timekeeping and prioritization from this project.
 
 ### Final Thoughts
 Provide any additional insights gained during the project and thoughts on the overall process.  
 **Guidance:** Begin drafting reflections during Phase 1 and update throughout the project. Finalize this section after Phase 4. Highlight successes and challenges, particularly regarding the use of AI tools, and provide overall insights into the project.
 
-## Code And Credit Attribution
+## Credits and Attribution
+
+### Collaborators 
 - Coding partner: Brian Murphy
 - PREVENT study partner: William Waldron-Hayden
-- Logo: <a href="https://www.vecteezy.com/vector-art/552197-celtic-knot-heart-vector-illustration">Celtic Knot Heart vector</a> by Brian Goff<br>
-(<a href="https://www.vecteezy.com/free-vector/tied">Tied Vectors by Vecteezy</a>)
 
+### Code
+
+### Images
+- Logo: <a href="https://www.vecteezy.com/vector-art/552197-celtic-knot-heart-vector-illustration" target="_blank">Celtic Knot Heart vector</a> by Brian Goff<br>
+(<a href="https://www.vecteezy.com/free-vector/tied" target="_blank">Tied Vectors by Vecteezy</a>)
+- (<a href="https://www.pexels.com" target="_blank">Pexels</a>) - Hero and insert images
+- (<a href="https://www.fontawesome.com" target="_blank">Font Awesome</a>) - media icons
 
 ## Future Improvements
 Briefly discuss potential future improvements or features that could be added to the project.  
