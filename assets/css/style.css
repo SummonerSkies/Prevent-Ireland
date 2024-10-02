@@ -25,6 +25,7 @@ h1, h2, h3 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
+    margin: 0;
 }
 
 /** Header **/
