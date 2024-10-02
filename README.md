@@ -49,11 +49,16 @@ I started with the official colour shades of the Irish Flag, with the intent of 
 
 The final version of the site, I opted not to use the blue and charcoal colours, as these did not compliment the design as I had hoped. Instead, I opted to use a darker shade of green (#004e22) for the footer to offset the flag-green shade of the header, and a offwhite/cream colour (#fafafa) for the navigation menu and footer icons.
 
-![Image of the two replacement colours with their hexcode taken from coolors.co](/assets/images/colour-palette-version1.png)
+![Image of the two replacement colours with their hexcode taken from coolors.co](/assets/images/colour-palette-version2.png)
 
 
 ### Logo
 
+The Celtic knot is uniquely Irish, and I wanted to find a design that would incorporate this imagery in the shape of a heart. The heart represents community, and the knotwork represents how everyone is connected together.
+
+After a brief search, I found a free vector design I liked by Brian Goff on [Vecteezy](https://www.vecteezy.com/).
+
+<img src="https://raw.githubusercontent.com/SummonerSkies/Prevent-Ireland/refs/heads/main/assets/images/heart_015.jpg" width=30% height=30% alt="Image of a green celtic knot shaped into a heart.">
 
 
 ### Wireframes
