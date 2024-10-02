@@ -146,12 +146,31 @@ p {
     max-height: 100px;
 }
 
+.youtube-video {
+    text-align: center;
+    margin: 0;
+}
+
 iframe {
     padding: 10px 10px;
     aspect-ratio: 16 / 9;
     height: auto;
     width: 100%;
     max-width: 560px;
+}
+
+
+/** WhatIs information signs of radicalization section **/
+#rad-intro {
+
+}
+
+#rad-signs {
+
+}
+
+#signs-image {
+    
 }
 
 /** Footer Section **/
