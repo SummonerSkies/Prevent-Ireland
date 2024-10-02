@@ -221,9 +221,8 @@ details > p {
     box-shadow: 1px 1px 2px #bbbbbb;
 }
 
-details span {
-    background-color: #baf0cc;
-    margin: 0px 30px;
+span {
+    margin-left: 20px;
 }
 
 #signs-image {
