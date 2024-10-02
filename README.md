@@ -43,9 +43,22 @@ This site should be useable by anyone seeking general information on the topic. 
 ## Design Decisions
 
 ### Wireframes
-Include wireframes for key sections of your website.  
-Briefly describe the design choices, including layout, colour schemes, and fonts.  
-**Guidance:** Start this section during Phase 1: Ideation & Initial Setup and update it throughout Phase 2 and Phase 3. Include digital wireframes created in Phase 1. Document the reasoning behind your layout choices, colour schemes, and font selections.
+
+
+![index_html](https://github.com/user-attachments/assets/4de9f220-96d8-466e-bef8-e2dace9543cf)
+
+Starting with a clear front page with a hero image, I wanted to make sure the layout
+
+![about_html](https://github.com/user-attachments/assets/535792c9-69c2-4cb1-884d-dca10cedaa54)
+![risks_html](https://github.com/user-attachments/assets/6f2b7429-3c93-43c6-82c4-9cc5b0dea8a3)
+![community_html](https://github.com/user-attachments/assets/c3d7c6e1-7593-457e-8f65-c28ade2de6c5)
+![contact_html](https://github.com/user-attachments/assets/5c9aea5d-068a-47de-b247-2c0ed3fe0880)
+
+When breaking down the above wireframes, I realised I had gone out of scope - I was making too many pages and making the project too complicated for myself. 
+
+I took a step back, and merged together the page on What is Radicalization and Community Resources together, and designed a page that could include a layout for both.
+
+![whatis_html](https://github.com/user-attachments/assets/a25df8bc-f482-4584-9ac2-add552101377)
 
 ### Accessibility Considerations
 Discuss how accessibility guidelines were adhered to, including colour contrast and alt text for images.  
